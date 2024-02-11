@@ -22,6 +22,7 @@
     <ClInclude Include="Start.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ListQueue.cpp" />
     <ClCompile Include="Start.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
