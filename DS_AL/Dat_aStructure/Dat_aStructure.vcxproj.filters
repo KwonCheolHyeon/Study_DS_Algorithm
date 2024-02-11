@@ -29,5 +29,8 @@
     <ClCompile Include="ListQueue.cpp">
       <Filter>QUEUE</Filter>
     </ClCompile>
+    <ClCompile Include="Dequeue.cpp">
+      <Filter>QUEUE</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -22,6 +22,7 @@
     <ClInclude Include="Start.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dequeue.cpp" />
     <ClCompile Include="ListQueue.cpp" />
     <ClCompile Include="Start.cpp" />
   </ItemGroup>
