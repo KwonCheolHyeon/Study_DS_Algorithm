@@ -24,6 +24,7 @@
   <ItemGroup>
     <ClCompile Include="Dequeue.cpp" />
     <ClCompile Include="ListQueue.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Start.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -16,6 +16,9 @@
     <Filter Include="QUEUE">
       <UniqueIdentifier>{9d9cc856-1370-4f31-98d5-5bd82d368269}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{1c3c0ccb-02db-427a-b365-b8c0d0da14bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Start.h">
@@ -31,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="Dequeue.cpp">
       <Filter>QUEUE</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
