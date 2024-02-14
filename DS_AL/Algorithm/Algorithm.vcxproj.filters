@@ -27,5 +27,8 @@
     <ClCompile Include="stackqueue4.cpp">
       <Filter>StackQueue</Filter>
     </ClCompile>
+    <ClCompile Include="stackqueue5.cpp">
+      <Filter>StackQueue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

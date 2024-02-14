@@ -33,6 +33,7 @@ int solution(vector<int> priorities, int location)
         if (hasHigherPriority)
         {
             q.push(current);
+
         }
         else 
         {
