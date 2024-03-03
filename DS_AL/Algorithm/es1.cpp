@@ -1,10 +1,6 @@
-#include<string>
-#include <iostream>
+#include <string>
 #include <vector>
-#include <stack>
-#include <queue>
-#include <algorithm>
-#include <math.h>
+
 using namespace std;
 
 int solution(vector<vector<int>> sizes) {
@@ -28,12 +24,4 @@ int solution(vector<vector<int>> sizes) {
 
 
     return height * width;
-}
-
-int main() 
-{
-    vector<vector<int>> sizes;
-    sizes = { {60,50},{30,70},{60,30},{80,40} };
-    solution(sizes);
-
 }

@@ -16,6 +16,9 @@
     <Filter Include="StackQueue">
       <UniqueIdentifier>{e19aea44-2088-4344-8fdf-84e4ab94df94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ExhaustiveSearch">
+      <UniqueIdentifier>{5055e672-cd76-44d3-9db2-d996bd8fb16b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="stackqueue5.cpp">
       <Filter>StackQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="es1.cpp">
+      <Filter>ExhaustiveSearch</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

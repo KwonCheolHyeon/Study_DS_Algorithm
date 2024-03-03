@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="es1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stackqueue3.cpp" />
     <ClCompile Include="stackqueue4.cpp" />
