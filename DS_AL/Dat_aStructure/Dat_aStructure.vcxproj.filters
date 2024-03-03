@@ -19,6 +19,9 @@
     <Filter Include="Stack">
       <UniqueIdentifier>{1c3c0ccb-02db-427a-b365-b8c0d0da14bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{8ce994ef-519f-470e-ac22-53fd51cfda3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Start.h">
@@ -37,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="Stack.cpp">
       <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryTree.cpp">
+      <Filter>Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
