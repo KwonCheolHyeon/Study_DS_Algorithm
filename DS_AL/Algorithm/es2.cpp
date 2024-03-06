@@ -1,14 +1,12 @@
-#include<string>
-#include <iostream>
+#include <string>
 #include <vector>
-#include <stack>
-#include <queue>
-#include <algorithm>
-#include <math.h>
+
 using namespace std;
+
 vector<int> m1 = { 1,2,3,4,5 }; //4
 vector<int> m2 = { 2,1,2,3,2,4,2,5 }; //7
 vector<int> m3 = { 3,3,1,1,2,2,4,4,5,5 }; //9
+
 vector<int> solution3(vector<int> answers) {
     vector<int> answer;
     int s[3] = { 0,0,0 };
@@ -30,11 +28,4 @@ vector<int> solution3(vector<int> answers) {
             answer.push_back(i + 1);
     }
     return answer;
-}
-
-int main() 
-{
-    vector<int> sizese = { 1,2,3,4,5 };
-    solution3(sizese);
-
 }

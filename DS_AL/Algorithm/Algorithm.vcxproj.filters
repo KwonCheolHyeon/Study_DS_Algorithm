@@ -36,5 +36,8 @@
     <ClCompile Include="es1.cpp">
       <Filter>ExhaustiveSearch</Filter>
     </ClCompile>
+    <ClCompile Include="es2.cpp">
+      <Filter>ExhaustiveSearch</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
