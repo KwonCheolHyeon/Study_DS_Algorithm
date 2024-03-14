@@ -38,6 +38,6 @@ int solution(string numbers) {
             if (isPrime(num)) answer++;
         }
     } while (next_permutation(numbers.begin(), numbers.end()));
-
+    
     return answer;
 }
