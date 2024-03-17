@@ -15,7 +15,7 @@ int dfs2(int node, const vector<vector<int>>& graph, vector<bool>& visited)
     return count;
 }
 
-int solution(int n, vector<vector<int>> wires) {
+int solutiones6(int n, vector<vector<int>> wires) {
     // 전력망 그래프 구성
     vector<vector<int>> graph(n + 1); // 1부터 시작하기 위해 n + 1 크기의 벡터 생성
     for (const auto& wire : wires) {

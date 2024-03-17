@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<int> solution(int brown, int yellow) {
+vector<int> solutiones4(int brown, int yellow) {
     vector<int> answer;
     int total = brown + yellow;
 

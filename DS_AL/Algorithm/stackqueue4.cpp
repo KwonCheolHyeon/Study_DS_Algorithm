@@ -5,7 +5,7 @@
 #include <queue>
 using namespace std;
 
-int solution(vector<int> priorities, int location) 
+int solutionsq4(vector<int> priorities, int location) 
 {
     queue<pair<int, int>> q; //Æä¾î
     for (int i = 0; i < priorities.size(); ++i) 

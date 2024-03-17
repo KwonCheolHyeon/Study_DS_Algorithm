@@ -25,7 +25,7 @@ bool isPrime(string num) {
     return true;
 }
 
-int solution(string numbers) {
+int solutiones3(string numbers) {
     int answer = 0;
     // 오름차순 정렬
     sort(numbers.begin(), numbers.end());//next_permutation함수가 오름차순에서만 쓰인다 

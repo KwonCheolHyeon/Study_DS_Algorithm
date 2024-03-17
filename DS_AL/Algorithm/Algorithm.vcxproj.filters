@@ -69,5 +69,8 @@
     <ClCompile Include="dbfs1.cpp">
       <Filter>DFS_BFS</Filter>
     </ClCompile>
+    <ClCompile Include="dbfs3.cpp">
+      <Filter>DFS_BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

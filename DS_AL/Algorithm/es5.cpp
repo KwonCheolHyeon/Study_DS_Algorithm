@@ -10,7 +10,7 @@
 using namespace std;
 
 
-int solution5(int k, vector<vector<int>> dungeons) {
+int solutiones5(int k, vector<vector<int>> dungeons) {
     int answer = -1;
     sort(dungeons.begin(), dungeons.end());
     int fatigue = k;

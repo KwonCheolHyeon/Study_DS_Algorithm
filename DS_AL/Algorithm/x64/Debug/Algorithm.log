@@ -1,2 +1,14 @@
-﻿  main.cpp
+﻿  es1.cpp
+  es2.cpp
+  es3.cpp
+D:\DS_AL\Study_DS_Algorithm\DS_AL\Algorithm\es3.cpp(20,24): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
+D:\DS_AL\Study_DS_Algorithm\DS_AL\Algorithm\es3.cpp(20,20): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+D:\DS_AL\Study_DS_Algorithm\DS_AL\Algorithm\es3.cpp(24,12): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  es4.cpp
+  es5.cpp
+  es6.cpp
+  stackqueue4.cpp
+  stackqueue5.cpp
+  코드를 생성하고 있습니다...
+D:\DS_AL\Study_DS_Algorithm\DS_AL\Algorithm\stackqueue4.cpp(47,1): warning C4715: 'solutionsq4': 모든 제어 경로에서 값을 반환하지는 않습니다.
   Algorithm.vcxproj -> D:\DS_AL\Study_DS_Algorithm\DS_AL\x64\Debug\Algorithm.exe

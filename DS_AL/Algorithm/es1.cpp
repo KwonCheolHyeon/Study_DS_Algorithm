@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution(vector<vector<int>> sizes) {
+int solutiones1(vector<vector<int>> sizes) {
     int height = 0; // 높이
     int width = 0; // 가로
 

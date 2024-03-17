@@ -1,9 +1,9 @@
 #include <vector>
-#include <iostream>
 #include <queue>
+
 using namespace std;
 
-int solution(vector<vector<int>> maps) {
+int solutiondfs3(vector<vector<int>> maps) {
     int answer = 0;
     int n = maps.size();
     int m = maps[0].size();
@@ -43,18 +43,4 @@ int solution(vector<vector<int>> maps) {
     }
 
     return answer;
-}
-
-
-int main() {
-    vector<vector<int>> maps1 = {
-          {1,0,1,1,1},
-          {1,0,1,0,1},
-          {1,0,1,1,1},
-          {1,1,1,0,1},
-          {0,0,0,0,1}
-    };
-    int result1 = solution(maps1);
-    cout << result1 << endl; // Ãâ·Â°ª: 11
-    return 0;
 }

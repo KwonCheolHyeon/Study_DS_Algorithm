@@ -4,7 +4,7 @@
 #include <stack>
 using namespace std;
 
-bool solution(string s)
+bool solutionsq3(string s)
 {
     bool answer = true;
     stack<char> strs;
