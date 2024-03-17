@@ -1,10 +1,9 @@
-
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-void dfs2(int node, const vector<vector<int>>& graph, vector<bool>& visited) {
+void dfs(int node, const vector<vector<int>>& graph, vector<bool>& visited) {
     // 현재 노드를 방문했다고 표시
     visited[node] = true;
     cout << "Visited node: " << node << endl;
@@ -14,13 +13,13 @@ void dfs2(int node, const vector<vector<int>>& graph, vector<bool>& visited) {
     {
         if (!visited[neighbor])
         {
-            dfs2(neighbor, graph, visited);
+            dfs(neighbor, graph, visited);
         }
     }
 }
 
 
-int main() 
+int RunDFS()
 {
     vector<vector<int>> graph =
     {
@@ -34,6 +33,6 @@ int main()
 
     vector<bool> visited(graph.size(), false);
 
-    dfs2(0, graph, visited);
+    dfs(0, graph, visited);
     return 0;
 }

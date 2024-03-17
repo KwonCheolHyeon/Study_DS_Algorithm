@@ -3,13 +3,13 @@
 
 using namespace std;
 
-int dfs(int node, const vector<vector<int>>& graph, vector<bool>& visited) 
+int dfs2(int node, const vector<vector<int>>& graph, vector<bool>& visited) 
 {
     visited[node] = true;
     int count = 1; // 현재 노드를 포함하므로 1부터 시작
     for (int neighbor : graph[node]) {
         if (!visited[neighbor]) {
-            count += dfs(neighbor, graph, visited);
+            count += dfs2(neighbor, graph, visited);
         }
     }
     return count;
@@ -28,7 +28,7 @@ int solution(int n, vector<vector<int>> wires) {
     for (const auto& wire : wires) {
         vector<bool> visited(n + 1, false);
         visited[wire[0]] = visited[wire[1]] = true; // 전선을 끊었을 때 두 서브 그래프가 되므로 두 송전탑을 방문 처리
-        int count1 = dfs(wire[0], graph, visited); // 첫 번째 서브 그래프의 송전탑 개수
+        int count1 = dfs2(wire[0], graph, visited); // 첫 번째 서브 그래프의 송전탑 개수
         int count2 = n - count1; // 두 번째 서브 그래프의 송전탑 개수
         min_difference = min(min_difference, abs(count1 - count2));
     }

@@ -19,6 +19,15 @@
     <Filter Include="ExhaustiveSearch">
       <UniqueIdentifier>{5055e672-cd76-44d3-9db2-d996bd8fb16b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DFS">
+      <UniqueIdentifier>{9ee61355-4da6-415a-a50b-78c153fa3c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BFS">
+      <UniqueIdentifier>{d1871235-321f-4ed8-9f50-820e1d0f24ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DFS_BFS">
+      <UniqueIdentifier>{b508522e-645f-4763-86d7-67c6d04d4070}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,6 +59,15 @@
     </ClCompile>
     <ClCompile Include="es6.cpp">
       <Filter>ExhaustiveSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="dbfs1.cpp">
+      <Filter>DFS_BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

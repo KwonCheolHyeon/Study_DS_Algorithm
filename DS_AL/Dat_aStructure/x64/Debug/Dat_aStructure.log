@@ -1,15 +1,3 @@
-﻿  binaryTree.cpp
-  Dequeue.cpp
-D:\DS_AL\Study_DS_Algorithm\DS_AL\Dat_aStructure\binaryTree.cpp(36,3): error C2561: 'GetLeftSubTree': 함수는 값을 반환해야 합니다.
-  D:\DS_AL\Study_DS_Algorithm\DS_AL\Dat_aStructure\binaryTree.cpp(32,12):
-  'GetLeftSubTree' 선언을 참조하십시오.
-  
-D:\DS_AL\Study_DS_Algorithm\DS_AL\Dat_aStructure\binaryTree.cpp(44,3): error C2561: 'GetRightSubTree': 함수는 값을 반환해야 합니다.
-  D:\DS_AL\Study_DS_Algorithm\DS_AL\Dat_aStructure\binaryTree.cpp(40,12):
-  'GetRightSubTree' 선언을 참조하십시오.
-  
-  ListQueue.cpp
-  Stack.cpp
-  Start.cpp
-D:\DS_AL\Study_DS_Algorithm\DS_AL\Dat_aStructure\Start.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-  코드를 생성하고 있습니다...
+﻿  Start.cpp
+Start.obj : error LNK2005: "void __cdecl dfs(int,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > const &,class std::vector<bool,class std::allocator<bool> > &)" (?dfs@@YAXHAEBV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@AEAV?$vector@_NV?$allocator@_N@std@@@2@@Z)이(가) DFS.obj에 이미 정의되어 있습니다.
+D:\DS_AL\Study_DS_Algorithm\DS_AL\x64\Debug\Data_Structure.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

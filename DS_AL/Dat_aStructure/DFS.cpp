@@ -1,28 +1,26 @@
-
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-void dfs2(int node, const vector<vector<int>>& graph, vector<bool>& visited) {
+void dfs(int node, const vector<vector<int>>& graph, vector<bool>& visited) {
     // 현재 노드를 방문했다고 표시
     visited[node] = true;
     cout << "Visited node: " << node << endl;
 
     // 현재 노드와 연결된 모든 미방문 노드를 재귀적으로 탐색
-    for (int neighbor : graph[node])
+    for (int neighbor : graph[node]) 
     {
-        if (!visited[neighbor])
+        if (!visited[neighbor]) 
         {
-            dfs2(neighbor, graph, visited);
+            dfs(neighbor, graph, visited);
         }
     }
 }
 
-
-int main() 
+int main2() 
 {
-    vector<vector<int>> graph =
+    vector<vector<int>> graph = 
     {
         {1, 2},     // 노드 0과 연결된 노드들
         {0, 3, 4},  // 노드 1과 연결된 노드들
@@ -34,6 +32,7 @@ int main()
 
     vector<bool> visited(graph.size(), false);
 
-    dfs2(0, graph, visited);
+    dfs(0, graph, visited);
+
     return 0;
 }

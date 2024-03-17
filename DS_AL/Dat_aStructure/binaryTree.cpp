@@ -33,7 +33,7 @@ BTreeNode* GetLeftSubTree(BTreeNode* bt)
 {
 	if (bt->left == nullptr) 
 	{
-		return;//오류
+		//return;//오류
 	}
 	return bt->left;
 }
@@ -41,7 +41,7 @@ BTreeNode* GetRightSubTree(BTreeNode* bt)
 {
 	if (bt->right == nullptr)
 	{
-		return;//오류
+		//return ;//오류
 	}
 	return bt->right;
 }
