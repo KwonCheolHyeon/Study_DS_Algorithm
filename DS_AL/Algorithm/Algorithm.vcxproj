@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="BFS.cpp" />
     <ClCompile Include="dbfs1.cpp" />
+    <ClCompile Include="dbfs2.cpp" />
     <ClCompile Include="dbfs3.cpp" />
     <ClCompile Include="DFS.cpp" />
     <ClCompile Include="es1.cpp" />
