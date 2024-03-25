@@ -28,6 +28,9 @@
     <Filter Include="DFS_BFS">
       <UniqueIdentifier>{b508522e-645f-4763-86d7-67c6d04d4070}</UniqueIdentifier>
     </Filter>
+    <Filter Include="problem">
+      <UniqueIdentifier>{a42a57f0-6766-465e-9ca1-41f06ea97335}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="dbfs2.cpp">
       <Filter>DFS_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileDefense.cpp">
+      <Filter>problem</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

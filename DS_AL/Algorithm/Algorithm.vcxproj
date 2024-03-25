@@ -31,6 +31,7 @@
     <ClCompile Include="es5.cpp" />
     <ClCompile Include="es6.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MissileDefense.cpp" />
     <ClCompile Include="stackqueue3.cpp" />
     <ClCompile Include="stackqueue4.cpp" />
     <ClCompile Include="stackqueue5.cpp" />
